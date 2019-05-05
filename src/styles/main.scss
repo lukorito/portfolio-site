@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: "Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    color: rgb(56, 58, 66);
+    line-height: 1.65;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 264px 1fr;
+    margin: auto;
+    max-width: 1000px;
+    min-height: 100vh;
+}
+
+.sidebar {
+    background: linear-gradient(to right,#fff,#f5f5f5);
+    text-align: center;
+
+    .profile-image {
+        border-radius: 50%;
+    }
+
+    & .sidebar-section {
+        border-top: 1px solid #ddd;
+    }
+
+    & .white{
+        background: #fff;
+        position: relative;
+        right: -1;
+    }
+
+    .section {
+        padding: 32px;
+
+
+        .name {
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 1.1;
+            margin-bottom: 0;
+            margin-top: 16px;
+        }
+
+        .job-title {
+            color: #696c77;
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 0;
+            padding: 0;
+        }
+    }
+
+    .nav {
+        font-size: 0;
+        margin: -8px 0;
+        text-align: center;
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            background: #fff;
+            border-radius: 4px;
+            color: #383a42;
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 4px 0;
+            padding: 5px 24px;
+            position: relative;
+            text-decoration: none;
+            transition: all 150ms ease-out;
+            // background: rgba(193,132,1,.08);
+            color: #c18401;
+
+            //  To be implemented when expanding
+            // &:active {
+            //     background: rgba(193,132,1,.08);
+            //     color: #c18401;
+            // }
+
+            &:hover {
+                background-color: rgba(193,132,1,.08);
+            }
+        }
+
+    }
+}
+
+main {
+    border-left: 1px solid #ddd;
+    padding: 48px;
+    max-width: 736px;
+
+    section{
+        h1{
+            font-size: 2.24rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin: 0 0 24px 0;
+        }
+    }
+
+    p {
+        overflow-wrap: break-word;
+        margin-top: 24px;
+    }
+
+    h2 {
+        font-size: 1.45rem;
+        margin-top: 32px;
+        font-weight: 700;
+        line-height: 1.4;
+        padding: 16px 0;
+         
+    }
+
+    ul {
+        padding-left: 48px;
+        padding-top: 20px;
+    }
+
+    a {
+        color: #986801;
+        transition: color .1s ease-in-out;
+        text-decoration: none;
+
+        &:hover {
+            color: #e89f01;
+        }
+    }
+
+}
