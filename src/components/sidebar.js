@@ -26,7 +26,7 @@ export default () => {
                     <Img fixed={data.profileImage.childImageSharp.fixed} className="profile-image"/>
                 </Link>
                 <div className="name">Kelvin Kitika</div>
-                <div className="job-title">Junior Javascript Engineer</div>
+                <div className="job-title">Javascript Software Developer</div>
             </section>
             <section className="sidebar section sidebar-section white">
                 <nav className="nav">

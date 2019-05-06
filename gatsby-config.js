@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `Kelvin Kitika`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Hi, I'm Kelvin. I live in Nairobi, Kenya and I am a passionate web developer.
+    Currently, I work at Andela`,
+    author: `@_kitika`,
+    image: `/Kelvin_Kitika-4-X3.jpg`,
+    url: `https://www.kitika.dev`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
