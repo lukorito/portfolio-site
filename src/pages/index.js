@@ -2,13 +2,16 @@ import React from "react";
 import Layout from '../components/layout';
 import SideBar from '../components/sidebar';
 import AboutPage from '../pages/about';
-import SEO from '../components/SEO';
+import { Helmet } from "react-helmet"
 
 const IndexPage = () => (
   <Layout>
     <SideBar/>
     <AboutPage/>
-    <SEO/>
+    <Helmet>
+        <title>About - Kitika</title>
+        <meta charSet="utf-8" />
+    </Helmet>
   </Layout>
 )
 
