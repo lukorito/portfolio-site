@@ -11,10 +11,11 @@ const AboutPage = () => (
           </p>
 
           <h2>Contact</h2>
-          <p>If you want to get in touch with my, hit me up at <a href="mailto:me@kitika.dev">me@kitika.dev</a> or you can connect with me through:</p>
+          <p>If you want to get in touch with me, hit me up at <a href="mailto:me@kitika.dev">me@kitika.dev</a> or you can connect with me through:</p>
           <ul>
               <li><a href='http://www.github.com/lukorito'>Github</a></li>
               <li><a href='http://www.twitter.com/_kitika'>Twitter</a></li>
+              <li><a href='https://www.linkedin.com/in/kelvin-kitika-l-85065183/'>LinkedIn</a></li>
           </ul>
       </section>
   </main>

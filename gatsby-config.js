@@ -4,7 +4,7 @@ module.exports = {
     description: `Hi, I'm Kelvin. I live in Nairobi, Kenya and I am a passionate web developer.
     Currently, I work at Andela`,
     author: `@_kitika`,
-    image: `/Kelvin_Kitika-4-X3.jpg`,
+    image: `/images/Kelvin_Kitika-4-X3.jpg`,
     url: `https://www.kitika.dev`
   },
   plugins: [
