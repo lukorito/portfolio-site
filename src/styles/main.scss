@@ -143,3 +143,23 @@ main {
     }
 
 }
+
+@media only screen and (max-width: 600px) {
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        padding-top: 20px;
+        text-align: center;
+
+        ul{
+            text-align: left;
+        }
+    }
+
+    .sidebar .section:nth-child(3){
+        padding: 0px;
+    }
+ }
