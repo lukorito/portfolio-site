@@ -73,7 +73,6 @@ body {
         a {
             background: #fff;
             border-radius: 4px;
-            color: #383a42;
             display: block;
             font-size: 1.1rem;
             font-weight: 600;
@@ -82,17 +81,16 @@ body {
             position: relative;
             text-decoration: none;
             transition: all 150ms ease-out;
-            // background: rgba(193,132,1,.08);
-            color: #c18401;
+            color: #247BA0;
 
             //  To be implemented when expanding
             // &:active {
             //     background: rgba(193,132,1,.08);
-            //     color: #c18401;
+            //     color: #247BA0;
             // }
 
             &:hover {
-                background-color: rgba(193,132,1,.08);
+                background-color: rgba(44, 119, 115, 0.08);
             }
         }
 
@@ -133,12 +131,12 @@ main {
     }
 
     a {
-        color: #986801;
+        color: #247BA0;
         transition: color .1s ease-in-out;
         text-decoration: none;
 
         &:hover {
-            color: #e89f01;
+            color: #FF1654;
         }
     }
 
