@@ -5,11 +5,14 @@ module.exports = {
     Currently, I work at Andela`,
     author: `@_kitika`,
     image: `/images/Kelvin_Kitika-4-X3.jpg`,
-    url: `https://www.kitika.dev`
+    siteUrl: `https://www.kitika.dev`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
+    `gatsby-plugin-robots-txt`
+    ,
+    `gatsby-plugin-sitemap`,
+     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
